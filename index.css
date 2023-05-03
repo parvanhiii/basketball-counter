@@ -1,0 +1,74 @@
+@font-face {
+    font-family: myFont;
+    src: url(font.ttf);
+}
+
+
+
+body {
+    background-color: blue;
+    margin: 0;
+
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: beige;
+    text-shadow: 2px 4px 4px #000000;
+}
+
+.main {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    background-color: transparent;
+    margin-right: -540px;
+}
+
+.column2 {
+    background-color: transparent;
+}
+
+.score {
+    background-color: #121112;
+    width: 120px;
+    height: 90px;
+    margin: 20px;
+    font-size: 80px;
+    text-align: center;
+    color: #d71a1a;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    padding-left: 25px;
+
+    padding-right: 35px;
+    font-family: myFont
+}
+
+button {
+    border-radius: 5px;
+    border: 2px solid #eee7e7;
+    background-color: transparent;
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: aliceblue;
+
+}
+
+
+button:hover {
+    background-color: #35b30c
+}
+
+button:active {
+    background-color: #35b30c;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+
+}
